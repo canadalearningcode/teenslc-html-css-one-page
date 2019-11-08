@@ -119,11 +119,12 @@
     <section class="slide centered" data-markdown>
       <script type="text/template">
         # Today&rsquo;s project
+        ## Example Website: Hustle
+        Check out the site [here](https://teens-findingjobs.glitch.me)
+        <br></br>
+        <img src = "framework/img/workshop/hustle-full-page.png">
+  </script>
 
-        See the whole project [here](project/reference-en/final.html).
-
-        ![final project](framework/img/workshop/final-project.jpg)
-      </script>
     </section>
 
     <section class="slide" data-markdown>
@@ -310,23 +311,22 @@
       </script>
     </section>
 
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #Text Editor
 
-        * used to write and edit code
-        * preinstalled editors (Notepad / TextEdit) don't include many features
-        * paid and free options include features such as colour highlighting and plugins for improving workflow
-        * some great options: [Notepad++](http://notepad-plus-plus.org/), [Sublime Text](http://www.sublimetext.com/) (untimed free trial), [Brackets](http://brackets.io) and [TextWrangler](http://www.barebones.com/products/textwrangler/).
+        <section class="slide" data-markdown>
+          <script type="text/template">
+            #Glitch
 
-        **[Atom](https://atom.io/)** is totally free and is the editor we'll be using today.
-        <span class="note">(If you have another editor installed, it will work as well but some features may be different.)</span>
+            * Free easy-to-use website that lets you build websites, apps and more using code.
+            * Allows for collaboration on a project!
+            * Highlights mistakes which helps make the coding experience easier.
+            * Go to https://glitch.com/
 
-        ---
-        ###Pro tip!
-        Improve your work flow with [keyboard shortcuts](http://canadalearningcode.ca/downloads/keyboard-shortcuts.pdf).
-      </script>
-    </section>
+            ![Glitch](framework/img/workshop/glitch.png)
+
+
+          </script>
+        </section>
+
 
     <section class="slide side-by-side" data-markdown>
       <script type="text/template">
@@ -440,102 +440,111 @@
         To create an HTML page, just save it with the file extension `.html`.
       </script>
     </section>
-
-    <section class="slide" data-markdown>
+    <!--Slide 34-->
+    <section class="slide" data-toc data-markdown>
       <script type="text/template">
-      #Setting up your project
+        # Create an Account
 
-      Inside of the folder you downloaded today, open the **project** folder in your text editor to edit your project.
+        Go to https://glitch.com and sign in with email. You will need to go to your inbox and click on the "sign in" button to begin.
 
-      ```html
-      teenslc-html-css-one-page-master
-        |-- framework // Contains files needed for slide presentation. Do not edit!
-        |-- project // Contains the exercise files for this workshop. (images, CSS & HTML files)
-        |-- slides.html // This is the file you are viewing right now!
-      ```
+        ![Sign in with email](framework/img/workshop/glitch-signin-with-email.png)
+        ![Verification email](framework/img/workshop/glitch-verification.png)
 
-      Go to **File** > ** Add Project Folder**. A popup will appear.
 
-      ![](framework/img/workshop/editor-add-project-1.jpg)
 
-      Then:
 
-      * navigate to the **teenslc-html-css-one-page-master** folder
-      * select **project**
-      * click **Open**
-
-      The files will now appear in the sidebar.
       </script>
     </section>
 
-    <section class="slide" data-markdown>
+    <!--Slide 35-->
+    <section class="slide two-col-list" data-toc data-markdown>
       <script type="text/template">
-        #Setting up your project
+        # Collaborating in Glitch
 
-        Your project folder structure will look like this:
+        **Pair 1:**
 
-        ```html
-        project
-          |-- images
-          |-- reference
+        1. Create a new project <br> ![Select New Project, then Hello-Webpage](framework/img/workshop/new-project.png)
+        1. Change the name of your project <br> ![Rename](framework/img/workshop/rename.png)
+
+      </script>
+    </section>
+
+    <!--Slide 36-->
+    <section class="slide two-col-list" data-toc data-markdown>
+      <script type="text/template">
+        # Collaborating in Glitch
+
+        **Pair 2:**
+
+        1. Go to your team's website: `glitch.com/~name-of-website`
+        1. Select **Edit project**
+        1. Request to join the project <br> ![Join](framework/img/workshop/join.png)
+
+
+
+      </script>
+    </section>
+    <section class="slide two-col-list" data-toc data-markdown>
+      <script type="text/template">
+        # Collaborating in Glitch
+
+        **Pair 1:**
+
+        1.  Add your team members
+          ![Click on bubble that says Can I Join?](framework/img/workshop/invite1.png)
+        ![Click Invite to Edit](framework/img/workshop/invite2.png)
+
+        **Do not rename index.html. This is our home page.**
+
+
+
+      </script>
+    </section>
+
+    <!--Slide 37-->
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Say 'Hello' to your team through comments! 👋
+
+        This is a great way for you to communicate with your teammmates and explain what you're doing with your code.
+
+        The syntax for comments in HTML are
         ```
+        <!-- THIS IS A COMMENT -->
+        ```
+        Try it out! Open the **index.html** and type a message to your teammates.
 
-        The **images** folder contains a selection of images to use in your project (or add your own to this folder during the exercises).
+        ![Writing a comment in Glitch](framework/img/workshop/writing-a-comment.png)
 
-        The **reference** folder contains the solutions for each exercise. Try not to peek unless you're *really* stuck.
       </script>
     </section>
 
-    <section class="slide" data-markdown>
+    <!--Slide 38-->
+    <section class="slide" data-toc data-markdown>
       <script type="text/template">
-        #Getting to know Atom
+        # Preview Your Site
 
-        Having a good text editor and learning how to use it to its full potential will help your work flow. Today, let's update the text wrapping option to make it easier to read long blocks of code and text.
+        View your site by selecting **Show** then **Next to the code**.
 
-        Go to **Preferences** to open the customization options.<br />
-        For Windows Users, go to the **File** menu and choose Settings.
+        ![Screenshot of project with preview next to the code](framework/img/workshop/window-setup.png)
 
-        ![](framework/img/workshop/atom-preferences.jpg)<!-- .element: width="70%" -->
-
-        Select the **Editor** tab in the left menu
-
-        ![](framework/img/workshop/atom-settings.jpg)<!-- .element: width="70%" -->
-
-        Make sure the **Soft Wrap** and **Show Indent Guide** options are checked.
-
-        ![](framework/img/workshop/atom-soft-wrap.jpg)<!-- .element: width="70%" -->
-
-        ---
-        ###Resources
-
-        *   [Atom documentation](https://atom.io/docs)
-        *   [Atom Shortcuts cheat sheet](https://bugsnag.com/blog/atom-editor-cheat-sheet)
-        *   [Customizing Atom](https://atom.io/docs/v0.61.0/customizing-atom)
-        *   [Themes](https://atom.io/themes) for Atom
-        *   [Snippets](https://github.com/atom/snippets) - create your own code snippet shortcuts
       </script>
     </section>
 
+
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Class Exercise #1: Create your project's HTML page
+        #Class Exercise #1: Name your Website
 
-        1. In the text editor, create a new file (**File** > **New File**)
-        1. Save it as `index.html` (**File** > **Save**)
-        1. Add all of the basic HTML tags. Refer to [this slide](slides-en.html#basic-tags) for reference.
         1. In *between* the `<title></title>` tags, add a *page title* that reflects the content of your webpage. Example:
           ```
           <title>Laura Ipsum | Digital Designer & Developer</title>
           ```
-        1. Open `index.html` in the browser.
-          * go to Windows Explorer or Finder
-          * navigate to the **teenslc-html-css-one-page-master > project** folder
-          * double click on **index.html** to open it in your default browser
-          <br><span class="note">(If Chrome is not your default, right-click/two-finger tap on **index.html** and choose **Open With > Chrome**)</span>
+        1. Select **Show** > **In a new window** to test it out!
 
-        There is no page *content* yet so the browser will show a blank page. The page *title* however, will show in the browser toolbar.
+        The page *title* will show in the browser toolbar.
 
-        ![exercise 1 example](framework/img/workshop/exercise-1.jpg)
+        ![exercise 1 example](framework/img/workshop/title-preview.png)
       </script>
     </section>
 
@@ -688,6 +697,22 @@
 
         footer <!-- .element: class="footer" -->
         </div>
+        </header>
+      </script>
+    </section>
+
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        # PLANNING THE PAGE LAYOUT
+
+        * ![final project](framework/img/workshop/hustle-final-project.png)
+        * Your website might have different sections, depending on your topic. For example:
+          * header
+          * problem
+          * research
+          * solution
+          * footer
+
         </header>
       </script>
     </section>
@@ -937,68 +962,6 @@
       </script>
     </section>
 
-    <section class="slide project" data-markdown>
-      <script type="text/template">
-        #Paths
-
-        Even though today's project only has one page, it includes lots of different content.
-
-        Some of that content lives directly within the page itself (ie. the text), and some of it may live elsewhere (eg. in the images folder, on other websites, etc.).
-
-        When we want to display some content that lives *outside* of the current page, we have to tell the browser where to find it. This information is called a `path`.
-      </script>
-    </section>
-
-    <section class="slide project" data-markdown>
-      <script type="text/template">
-        #Types of Paths
-
-        Paths allow the browser to find, retrieve, and display external resources such as images, CSS/JS files, and even other pages.
-
-        There are two different types of paths:
-
-        * `Relative` - These tell the browser how to get from the current page to the external resource.
-        * `Absolute` - These tell the browser *exactly* where the external resource can be found online.
-      </script>
-    </section>
-
-    <section class="slide project" data-markdown>
-      <script type="text/template">
-        #Relative Paths
-
-        **We use relative paths when we're trying to make a connection between two resources within our own website.**
-
-        Relative paths start from the location of the current page, and tell the browser which folders should be looked in to find the external resource.
-
-        ```xml
-        images/backgrounds/dark/dark-background-1.jpg
-        ```
-
-        We can think of relative paths like directions.
-
-        We'll be using relative paths to add images shortly!
-      </script>
-    </section>
-
-    <section class="slide project" data-markdown>
-      <script type="text/template">
-        #Absolute Paths
-
-        **We use absolute paths to request resources that live *outside* of our own website (eg. elsewhere online).**
-
-        ```xml
-        // Image
-        http://website.com/images/image-1.jpg
-
-        // CSS
-        https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css
-        ```
-
-        Absolute paths start with a protocol (ie. `http` or `https`), followed by the location of the resource.
-
-        If relative paths are like directions, an absolute path is like a home address.
-      </script>
-    </section>
 
     <section class="slide" data-markdown>
       <script type="text/template">
@@ -1043,33 +1006,7 @@
       </script>
     </section>
 
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #Image file organization
 
-        It's best practice (but not required) to put image files into its own folder to keep the project files organized.  Today's **project** directory already includes an **images** folder.
-
-        Since the images are not in the same folder as **index.html**, use a *relative* path to link to the file.
-
-        ```
-        <img src="images/image-file.jpg" alt="description of image">
-        ```
-        The starting point (**index.html**), is outside of the **images** folder. The above example directs the browser to a folder named **images**, then the filename, *including the file extension*.
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #Image file organization
-        If you have a folder in a folder, then add the subfolder into the path.
-
-        ```
-        <img src="folder/sub-folder/filename" alt="description of image">
-        ```
-
-        If your file extensions do not show by default, here are instructions for [Mac](https://support.apple.com/kb/PH19072?locale=en_US) and for [Windows](https://support.microsoft.com/en-ca/help/14201/windows-show-hidden-files).
-      </script>
-    </section>
 
     <section class="slide" data-markdown>
       <script type="text/template">
@@ -1094,6 +1031,34 @@
         ```xml
         <a href="mailto:hello@myemail.com">hello@myemail.com</a>
         ```
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Add an image (Part 1) 📷
+        1. Download an image from Google (right click > save as). <br> *Find a creative commons image by selecting Tools > Usage rights > Labeled for reuse. Or try [pexels.com](https://www.pexels.com/)*
+        1. In Glitch, go to the “assets” tab and upload the file.
+        1. Click on the image, then “copy url” so we can add it to our webpage.
+
+        ![Select Assets, then upload from computer](framework/img/workshop/upload-asset.png)
+        ![Copy the image URL](framework/img/workshop/copy-url.png)
+
+      </script>
+    </section>
+
+    <!--Slide 41-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Add an image (Part 2) 📷
+        1. In your html file, create a new image tag (see below)
+        1. Add an alt attribute that describes your image. <br> *This will help make your website more accessible to people who are blind or visually impaired*
+
+        ```html
+        <img alt="Image of a rocket in space" src="link-that-we-just-copied.png"/>
+        ```
+
+
       </script>
     </section>
 
@@ -1285,61 +1250,15 @@ selector { /* select the link */
         <h2 style="margin-top:0;">This is an h2</h2>
     </section>
 
-    <section class="slide" data-markdown>
+
+    <section class="slide" data-markdown data-toc>
       <script type="text/template">
-        #Referencing CSS
+        #Where do we put CSS?
 
-        Today, we&#39;ll be creating a separate style sheet file for the CSS.  To create a stylesheet, just name the file with a `.css` file extension.
+        Open up the  ```style.css``` file in the same folder as your ``index.html`` file. Glitch already connects these two files together for us!
 
-        The style sheet is then referenced within the `<head>` of the HTML document (different tag from `<header>`).
+        ![Upload](framework/img/workshop/stylelink.png)
 
-        Use `<link>` tag and two *attributes*, `rel` and `href`.
-
-        ```
-        <head>
-          <title>Page Title</title>
-          <link rel="stylesheet" href="css/style.css">
-        </head>
-        ```
-
-        Though not required, css files are often saved in a separate folder for organization, just like images. <!-- .element: class="note" -->
-
-        ---
-        ###Resource
-        There are several ways to add CSS. Read more about the difference ways to reference CSS <!-- .element: class="footnote" -->[here](http://reference.sitepoint.com/css/linkingcss).
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #Class Exercise: Create your project's CSS File
-
-        1. In the text editor, create a new CSS file by selecting **File > New File**.
-        1. Name it **styles.css** and save it to the **css** folder (already included in your **project** folder).
-        <span class="note">You can name the file anything but it's best to choose a name that describes the file content.<br> (i.e. styles.css, global.css, custom.css, project-name.css, etc)</span>
-        1. Then, reference it in **index.html**. <span class="note">**Pro tip!** Type `link` and press tab!</span>
-          ```
-          <head>
-              <link rel="stylesheet" href="css/styles.css">
-          </head>
-          ```
-        1. Run a test by adding a background color to the viewport (`body`).
-          ```
-          body {
-            background: lightblue;
-          }
-          ```
-      </script>
-    </section>
-
-    <section class="slide first-website" data-markdown>
-      <script type="text/template">
-        <div class="text">
-          <h1>Ta-da!</h1>
-          <p>
-            You just created your first website. HTML + CSS = website
-          </p>
-        </div>
       </script>
     </section>
 
@@ -2481,60 +2400,10 @@ border: 15px solid green;</textarea>
       </script>
     </section>
 
-    <section class="slide title" data-markdown data-toc>
-      <script type="text/template">
-        #Bonus Exercise: <br>Get your site online!
-        ##or skip ahead to <a href="#next-steps">next steps</a>
-      </script>
-    </section>
-    <section class="slide small-type" data-markdown>
-
-    <script type="text/template">
-    #Getting your webpage online
-
-    ##1) Create a Glitch Account
-
-    Go to https://glitch.com and sign in with email. You will need to go to your inbox and click on the "sign in" button to begin.
-
-    ![Sign in with email](framework/img/workshop/glitch-signin-with-email.png)
-    ![Verification email](framework/img/workshop/glitch-verification.png)
-
-    </script>
-  </section>
 
   <section class="slide small-type" data-markdown>
     <script type="text/template">
-    #Getting your story, quiz or game online
-
-    ##2) Upload your files
-
-    * Create a new project <br> ![Select New Project, then Hello-Webpage](framework/img/workshop/new-project.png)
-    * Upload any HTML and CSS files (you'll have to upload one at a time) <br> ![Select New File, then Upload](framework/img/workshop/glitch-upload-file.png)
-    * Upload any images (you can select all at once)<br> ![Select assets, Add asset, the Upload](framework/img/workshop/glitch-upload-assets.png)
-
-    </script>
-  </section>
-
-  <section class="slide small-type" data-markdown>
-    <script type="text/template">
-    #Getting your story, quiz or game online
-
-    ##3) Fix broken links
-
-    * Rename your starting page as `index.html` so Glitch knows where to begin <br> ![Select start.html and rename as index.html](framework/img/workshop/glitch-rename-index.png)
-    * Update any links to the start page to redirect to `index.html`
-    * Under `assets`, selecy Copy and update any image links with this new URL<br> ![Select assets, then the image you are using, then select Copy](framework/img/workshop/copy-url.png)
-
-    **Test and debug your project by selecting `Show Live`.**
-
-    </script>
-  </section>
-
-  <section class="slide small-type" data-markdown>
-    <script type="text/template">
-    #Getting your story, quiz or game online
-
-    ##4) Share!
+    #Sharing your website
 
     * Rename your project to customize your URL <br> ![Rename your project in the top, left corner](framework/img/workshop/rename.png)
     * Click `Show Live`. This URL is the link you can share with others to direct them to your project! <br> ![Select Show Live to preview your project in a new tab](framework/img/workshop/share.png)
@@ -2588,16 +2457,9 @@ border: 15px solid green;</textarea>
       </script>
     </section>
 
-    <section class="slide title" data-markdown>
-      <script type="text/template">
-        #💁‍♀️Group sharing time!
-      </script>
-    </section>
-
-
     <section class="slide" data-markdown data-toc>
       <script type="text/template">
-        #Coder's code ☺️
+        #Reminder: Coders' code ☺️
 
         1. Be friendly and give positive feedback
         1. Remember, we're all learning!
@@ -2605,6 +2467,12 @@ border: 15px solid green;</textarea>
         1. Equal sharing time for everyone
         1. Try your best (and have fun!)
 
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #💁‍♀️Group sharing time!
       </script>
     </section>
 

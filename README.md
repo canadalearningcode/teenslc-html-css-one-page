@@ -1,18 +1,19 @@
-# English
-
 # Teens Learning Code
 ## Build a One-Page Website with HTML & CSS
 
-A full day introductory HTML & CSS workshop.
+A two-part introductory HTML & CSS workshop.
 This workshop covers HTML and CSS basics and is intended for complete beginners.
 
 ## Quick Links
 
 Preview Slides: https://ladieslearningcode.github.io/teenslc-html-css-one-page/slides-en.html
 
+View Instructor Notes: https://ladieslearningcode.github.io/teenslc-html-css-one-page/notes-en.html
+
 ### Attributions
 
-Created by Jesse R Mykolyn for [Canada Learning Code](https://www.canadalearningcode.ca/).
+Created by Jesse R Mykolyn for [Canada Learning Code](https://www.canadalearningcode.ca/). Updates made by Mathurah Ravigulan.
+
 Slide presentation created by [Christina Truong](http://christinatruong.com/) for [Canada Learning Code](https://www.canadalearningcode.ca/).
 Contributions by Stacie DaPonte
 
@@ -77,14 +78,8 @@ This repository ships with a collection of image assets (located in `project/ima
 - [Hero](https://unsplash.com/photos/LJ36url5Z_U)
 - [Profile](https://unsplash.com/photos/u1CAj5HJzO4)
 
+<!--
 # Français
-# Ce contenu fait partie d'un thème mensuel!
-
-En 2019, nous encourageons la population du Canada à réfléchir, à apprendre, à partager et à collaborer pour résoudre des problèmes qui affectent toute la planète à l'aide de la technologie! Vous trouverez plus d'informations sur les thèmes mensuels en consultant notre [site](https://www.canadalearningcode.ca/monthly-themes/).
-
-*Le thème du mois de juillet est la sécurité alimentaire.*
-
-Consultez la diapositive n° 5 pour donner à votre groupe des idées pour intégrer le thème à leur projet. Les apprenantes ont le choix d'intégrer le thème à leur projet ou non.
 
 # Ados en programmation
 ## Création d’un site Web à une page avec le HTML et le CSS
@@ -162,3 +157,4 @@ Ce dossier comprend une collection d'images (dans `projet/images/`) que les appr
 - [Arrière-plan](https://unsplash.com/photos/TEYrLTKKMSg)
 - [Image de premier plan](https://unsplash.com/photos/LJ36url5Z_U)
 - [Profil](https://unsplash.com/photos/u1CAj5HJzO4)
+-->
